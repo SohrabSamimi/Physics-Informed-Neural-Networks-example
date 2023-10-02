@@ -1,6 +1,6 @@
 # Physics-Informed-Neural-Networks-example
 
-We use the Pytorch DL library to write the code.
+We use Pytorch to write the code.
 
 We first train a baseline Neural Network to learn the Cosine function.
 
