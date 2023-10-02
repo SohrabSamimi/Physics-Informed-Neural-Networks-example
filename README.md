@@ -2,7 +2,7 @@
 
 We first train a baseline Neural Network to learn the Cosine function.
 
-The Train Loss is around 1e-5 and the Test Loss is around 0.04 after 2000 epochs.
+The Train Loss is around 4e-5 and the Test Loss is around 0.04 after 2000 epochs.
 
 We see here under a very good performance on the train set but not on the test set:
 
