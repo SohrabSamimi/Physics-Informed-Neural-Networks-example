@@ -16,7 +16,7 @@ We see that the PINNs prediction and the true Cosine agree very well:
 
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
-This repository was inspired by the following article from Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
+This repository was inspired by the following article by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
 
 
 
