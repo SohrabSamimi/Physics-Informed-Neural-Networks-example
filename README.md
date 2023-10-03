@@ -2,8 +2,6 @@
 
 We first train a baseline Neural Network to learn the Cosine function.
 
-The Train Loss is around 4e-5 and the Test Loss is around 0.04 after 2000 epochs.
-
 We see here under a very good performance on the train set but not on the test set:
 
 ![Baseline_NN_cosine](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8e6d8f5b-0f7d-417c-9f96-f455f8145983)
@@ -16,7 +14,10 @@ We see that the PINNs prediction and the true Cosine agree very well:
 
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
-The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives as shown below:
+
+The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives.
+
+We recall that NN'~ -sin and NN''~ -cos as shown below:
 
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
