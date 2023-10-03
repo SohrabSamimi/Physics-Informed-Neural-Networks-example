@@ -16,6 +16,11 @@ We see that the PINNs prediction and the true Cosine agree very well:
 
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
+The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives as shown below:
+
+![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
+
+
 This repository was inspired by the following article by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
 
 
