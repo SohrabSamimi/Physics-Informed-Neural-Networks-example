@@ -17,7 +17,7 @@ We see that the $PINNs$ prediction and the true Cosine agree very well:
 
 The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives.
 
-We recall that  $NN'(x) ~-sin(x)$ and $NN''(x) ~-cos(x)$ as shown below:
+We recall that  $NN'(x)~-sin(x)$ and $NN''(x)~-cos(x)$ as shown below:
 
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
