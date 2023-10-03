@@ -8,16 +8,16 @@ We see here under a very good performance on the train set but not on the test s
 
 Afterwards, we take a completely different approach and we see the Cosine function as the solution of a second order differential equation.
 
-We use Physics-Informed Neural Networks to learn it using only 15 data points on an interval of length 7.
+We use Physics-Informed Neural Networks to learn it using only 15 data points on an interval of length $7$.
 
-We see that the PINNs prediction and the true Cosine agree very well:
+We see that the $PINNs$ prediction and the true Cosine agree very well:
 
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
 
 The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives.
 
-We recall that $NN'~ -sin$ and $NN''~ -cos$ as shown below:
+We recall that  $NN'(x) ~ -sin(x)$ and $NN''(x) ~ -cos$(x) as shown below:
 
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
