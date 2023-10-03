@@ -19,7 +19,7 @@ The PINNS technique not only allows to get a good estimation of the function its
 
 as we see below.
 
-(We recall that we should get  $NN'(x) = -sin(x)$ and $NN''(x) = -cos(x)$)
+We recall that we should get  $NN'(x) = -sin(x)$ and $NN''(x) = -cos(x)$
 
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
