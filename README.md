@@ -26,7 +26,7 @@ We recall that we should get  $NN'(x) = -sin(x)$ and $NN''(x) = -cos(x)$
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
 
-This repository was inspired by the Physics-Informed Neural Networks technique developed by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
+This repository was inspired by the Physics-Informed Neural Networks technique developed in the following article by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
 
 
 
