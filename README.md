@@ -10,10 +10,11 @@ Afterwards, we take a completely different approach and we see the Cosine functi
 
 We use Physics-Informed Neural Networks to learn it using only 15 data points on an interval of length $7$.
 
-We see that the $PINNs$ prediction and the true Cosine agree very well:
+We see that the $PINNs$ prediction and the true Cosine agree very well even outside the training set (15 points):
 
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
+After training the model, we have an average error of $5.10^{-6}$ on a test set of 500 points.
 
 The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives
 
