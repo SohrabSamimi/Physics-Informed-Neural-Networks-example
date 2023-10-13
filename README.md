@@ -12,9 +12,10 @@ We use Physics-Informed Neural Networks to learn it using only 15 data points on
 
 We see that the $PINNs$ prediction and the true Cosine agree very well even outside the training set (15 points):
 
+after training the model, we have an average error of $5.10^{-6}$ on a test set of 500 points.
+
 ![PINNS_COSINE](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/3e3350aa-18dc-4e3a-9015-8e22306984fb)
 
-After training the model, we have an average error of $5.10^{-6}$ on a test set of 500 points.
 
 The PINNS technique not only allows to get a good estimation of the function itself but also of its derivatives
 
@@ -25,7 +26,7 @@ We recall that we should get  $NN'(x) = -sin(x)$ and $NN''(x) = -cos(x)$
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
 
-This repository was inspired by the following article by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
+This repository was inspired by the Physics-Informed Neural Networks technique developed by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
 
 
 
