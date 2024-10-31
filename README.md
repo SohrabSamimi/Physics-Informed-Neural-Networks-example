@@ -20,7 +20,9 @@ $y'(0)=0$
 
 We use Physics-Informed Neural Networks ($PINNs$) to learn it using only 15 points.
 
-The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and minimize $MSE(y_\theta''-y) + (y_\theta(0)-1)² + y_\theta'(0)²$.
+The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and minimize the following loss:
+
+$L = MSE(y_\theta''-y) + (y_\theta(0)-1)² + y_\theta'(0)²$.
 
 To do this, we do not need ANY data about the solution $y$ except for $y(0)$ and $y'(0)$, which is a major advantage compared 
 
