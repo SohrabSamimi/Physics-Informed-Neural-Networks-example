@@ -24,7 +24,9 @@ The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and
 
 $L = MSE(y_\theta''-y_\theta) + (y_\theta(0)-1)² + y_\theta'(0)²$.
 
+If $L$ is close enough to $0$, it means that all the terms in the sum above are close to $0$, thus the differential
 
+equation is (almost) satisified.
 
 To do this, we do not need ANY data about the solution $y$ except for $y(0)$ and $y'(0)$, which is a major advantage compared 
 
