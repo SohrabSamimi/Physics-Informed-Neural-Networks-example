@@ -24,6 +24,8 @@ The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and
 
 $L = MSE(y_\theta''-y) + (y_\theta(0)-1)² + y_\theta'(0)²$.
 
+
+
 To do this, we do not need ANY data about the solution $y$ except for $y(0)$ and $y'(0)$, which is a major advantage compared 
 
 to classical NNs, which require a lot of data.
