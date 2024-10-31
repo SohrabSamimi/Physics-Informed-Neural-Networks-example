@@ -6,7 +6,7 @@ We see here under a very good performance on the train set but not on the test s
 
 ![Baseline_NN_cosine](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8e6d8f5b-0f7d-417c-9f96-f455f8145983)
 
-Afterwards, we take a completely different approach and we see the cosine function $x -> cos(x)$ as the solution of a second order differential equation, that is the 
+Afterwards, we take a completely different approach and we see the cosine function $x \longmapsto cos(x)$ as the solution of a second order differential equation, that is the 
 
 solution to:
 
