@@ -22,7 +22,7 @@ We use Physics-Informed Neural Networks ($PINNs$) to learn it using only 15 poin
 
 The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and minimize the following loss:
 
-$L = MSE(y_\theta''-y) + (y_\theta(0)-1)² + y_\theta'(0)²$.
+$L = MSE(y_\theta''-y_\theta) + (y_\theta(0)-1)² + y_\theta'(0)²$.
 
 
 
