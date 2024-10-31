@@ -1,14 +1,30 @@
 # Physics-Informed-Neural-Networks-example
 
-We first train a baseline Neural Network to learn the Cosine function.
+We first train a baseline Neural Network to learn the cosine function.
 
 We see here under a very good performance on the train set but not on the test set:
 
 ![Baseline_NN_cosine](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8e6d8f5b-0f7d-417c-9f96-f455f8145983)
 
-Afterwards, we take a completely different approach and we see the Cosine function as the solution of a second order differential equation.
+Afterwards, we take a completely different approach and we see the cosine function $x -> cos(x)$ as the solution of a second order differential equation, that is the 
 
-We use Physics-Informed Neural Networks to learn it using only 15 data points on an interval of length $7$.
+solution to:
+
+$y''=y$, 
+
+with initial conditions:
+
+$y(0)=1$, 
+
+$y'(0)=0$
+
+We use Physics-Informed Neural Networks ($PINNs$) to learn it using only 15 points.
+
+The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and minimize $MSE(y_\theta''-y) + (y_\theta(0)-1)² + y_\theta'(0)²$.
+
+To do this, we do not need ANY data about the solution $y$ except for $y(0)$ and $y'(0)$, which is a major advantage compared 
+
+to classical NNs, which require a lot of data.
 
 We see that the $PINNs$ prediction and the true Cosine agree very well even outside the training set (15 points):
 
