@@ -1,4 +1,4 @@
-# Physics-Informed-Neural-Networks in 1D
+# Physics-Informed Neural Networks in 1D
 
 PINNs were developed by Raissi et al. in 2017 in this article https://arxiv.org/abs/1711.10561.
 
