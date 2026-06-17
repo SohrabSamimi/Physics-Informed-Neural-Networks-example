@@ -1,4 +1,14 @@
-# Physics-Informed-Neural-Networks-example
+# Physics-Informed-Neural-Networks in 1D
+
+PINNs were developed by Raissi et al. in 2017 in this article https://arxiv.org/abs/1711.10561.
+
+Standard Neural Networks (NNs) generally fail at solving even simple linear PDEs. PINNs use NNs and incorporate the PDE inside the
+
+loss function, as we will see a few steps later.
+
+In some sense, PINNs are "semi-supervised" meaning that the equation drives the learning process (PINNs are supervised "by the equation").
+
+
 
 We first train a baseline Neural Network to learn the cosine function.
 
@@ -47,8 +57,6 @@ We recall that we should get  $NN'(x) = -sin(x)$ and $NN''(x) = -cos(x)$
 
 ![1st 2nd derivatives](https://github.com/SohrabSamimi/Physics-Informed-Neural-Networks-example/assets/58103877/8dd8f52c-50d1-4059-8c10-f79c621841fa)
 
-
-This repository was inspired by the Physics-Informed Neural Networks technique developed in the following article by Raissi et al. 2017 : https://arxiv.org/abs/1711.10561
 
 
 
