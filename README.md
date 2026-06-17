@@ -28,7 +28,9 @@ $y(0)=1$,
 
 $y'(0)=0$
 
-We use Physics-Informed Neural Networks ($PINNs$) to learn it using only 15 points.
+We use Physics-Informed Neural Networks ($PINNs$) to learn it using only 15 "equation" points. "Equation points" here
+
+indicate we don't need data at those points (knowing the ODE verified by data is enough).
 
 The central idea of $PINNs$ is to replace $y$ by a neural network $y_\theta$ and minimize the following loss:
 
