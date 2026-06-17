@@ -8,9 +8,9 @@ loss function, as we will see a few steps later.
 
 In some sense, PINNs are "semi-supervised" meaning that the equation drives the learning process (PINNs are supervised "by the equation").
 
+This repository first shows how NNs fail to learn a simple linear ODE outside the training set.
 
-
-We first train a baseline Neural Network to learn the cosine function.
+We train a baseline Neural Network to learn the cosine function.
 
 We see here under a very good performance on the train set but not on the test set:
 
