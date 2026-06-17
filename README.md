@@ -1,6 +1,6 @@
 # Physics-Informed Neural Networks in 1D
 
-PINNs were developed by Raissi et al. in 2017 in this article https://arxiv.org/abs/1711.10561.
+PINNs were developed by Raissi et al. in 2017 in this article: https://arxiv.org/abs/1711.10561.
 
 Standard Neural Networks (NNs) generally fail at solving even simple linear PDEs. PINNs use NNs and incorporate the PDE inside the
 
